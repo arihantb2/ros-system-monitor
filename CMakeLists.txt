@@ -6,6 +6,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   diagnostic_msgs
+  er_robot_status_msgs
 )
 
 catkin_package()

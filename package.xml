@@ -10,14 +10,16 @@
   <license>GNU Lesser General Public License (LGPL)</license>
   <url>http://github.com/ethz-asl/ros-system-monitor</url>
   <buildtool_depend>catkin</buildtool_depend>
-  
+
   <build_depend>rospy</build_depend>
   <build_depend>std_msgs</build_depend>
   <build_depend>diagnostic_msgs</build_depend>
-  
+  <build_depend>er_robot_status_msgs</build_depend>
+
   <run_depend>rospy</run_depend>
   <run_depend>std_msgs</run_depend>
   <run_depend>diagnostic_msgs</run_depend>
+  <run_depend>er_robot_status_msgs</run_depend>
   <run_depend>sysstat</run_depend>
   <run_depend>hddtemp</run_depend>
   <run_depend>ifstat</run_depend>
